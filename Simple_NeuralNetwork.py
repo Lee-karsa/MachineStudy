@@ -15,7 +15,6 @@ class Simple_NeuralNetwork:
         @rtype: null
         """
         self.Weight = np.random.random((3, 1))
-        self.Cost = []
 
     def __Adder(self, Input):
         """
