@@ -7,7 +7,6 @@
 
 import numpy as np
 
-
 class Simple_NeuralNetwork:
     def __init__(self):
         """
@@ -66,7 +65,6 @@ class Simple_NeuralNetwork:
 
             # back propagation, the result is [3,1]
             self.Weight = np.subtract(self.Weight, (np.dot(learning_rate, Adjustment)))
-
 
 if __name__ == "__main__":
     simple_neural = Simple_NeuralNetwork()
