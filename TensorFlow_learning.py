@@ -57,7 +57,7 @@ class Minist_Neural_Network:
 
     def Specified_Plot(self):
         """
-        @note: draw a tensors stream by a frankly specified picture
+        @note: draw a tensors stream by a frankly specified picture.
         @rtype: null
         """
         # draw a picture
